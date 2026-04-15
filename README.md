@@ -2,13 +2,13 @@
 
 **An XR performance installation using real-time biosensor data to drive interactive audiovisual elements.**
 
-Built with Unity 3D (OpenXR) and Android Studio.
+Built with Unity 3D (OpenXR) and Android Studio for a collaboration project, "Future of Performing Arts with XR Technologies" between TU Berlin and Empiria Theatre Zagreb.
 
 <img src="images/appimage-banner.jpeg" alt="HeartBeats Banner" width="600">
 
 ## Project Overview
 
-HeartBeats was developed within a collaboration between TU Berlin and Empiria Theatre Zagreb on the future of performing arts with XR technologies. The goal was to develop an interaction concept that translates live biosensor data into real-time audiovisual output within a performance context.
+HeartBeats was developed as an interaction concept that translates live biosensor data into real-time audiovisual output within a performance context.
 
 A dancer wears a Polar H10 chest sensor. An Android application connects via Bluetooth (Polar BLE SDK) and maps the heart rate to 18 audio files at different BPMs. The audience views the scene through an AR application (Noise Flowfield, Unity 3D) that creates a 3D particle visualization reacting to the audio environment: amplitude controls particle speed and rotation via linear interpolation, and the spectrum (8 bands) maps to particle color and size.
 
@@ -37,6 +37,6 @@ Because heart rate is highly individual and influenced by emotional state, the s
 
 ## Team
 
-Orhi Kekiklerce, Elisabeth Oswald, Anna Petrouffa, Rhea Widmer (TU Berlin), Lorenzo Cocchia (Politecnico di Milano)
+Orhun Caglidil, Elisabeth Oswald, Anna Petrouffa, Rhea Widmer (TU Berlin), Lorenzo Cocchia (Politecnico di Milano)
 
-**Affiliation:** TU Berlin, in collaboration with Empiria Theatre Zagreb
+
